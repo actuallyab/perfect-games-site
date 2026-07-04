@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://YOUR_GITHUB_USERNAME.github.io/perfect-games-site/sitemap.xml
+Sitemap: https://actuallyab.github.io/perfect-games-site/sitemap.xml

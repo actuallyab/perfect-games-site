@@ -54,13 +54,13 @@ Each section lives in its own folder with an `index.html` so GitHub Pages serves
 4. Choose branch **`main`**, folder **`/ (root)`**, then **Save**.
 5. GitHub will publish the site at:
    `https://<your-username>.github.io/perfect-games-site/`
-6. Replace every occurrence of `YOUR_GITHUB_USERNAME` in `index.html`, `privacy/index.html`,
+6. Replace every occurrence of `actuallyab` in `index.html`, `privacy/index.html`,
    `terms/index.html`, `support/index.html`, `robots.txt`, and `sitemap.xml` with your actual
    GitHub username (or your custom domain, if you set one up with a `CNAME` file) so canonical
    URLs, Open Graph tags, and the sitemap resolve correctly. A quick way to do this from the repo
    root:
    ```bash
-   grep -rl "YOUR_GITHUB_USERNAME" . | xargs sed -i '' 's/YOUR_GITHUB_USERNAME/<your-username>/g'
+   grep -rl "actuallyab" . | xargs sed -i '' 's/actuallyab/<your-username>/g'
    ```
    (Drop the `''` after `-i` on Linux; macOS `sed` requires it.)
 
